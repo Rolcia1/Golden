@@ -6,3 +6,10 @@ $color-three: #f7f7f7;
 $font-text: 'Lora', serif;
 $font-header: 'Montserrat', sans-serif;
 $font-logo: 'Lily Script One', cursive;
+
+.logo {
+    font-family: $font-logo;
+    font-size: 20px;
+    color: $color-two;
+}
+
