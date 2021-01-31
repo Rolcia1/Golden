@@ -16,10 +16,6 @@ header {
   margin-top: 12px;
 }
 
-.row {
-  margin-top: 40px;
-}
-
 .navigation > row {
   margin-top: 0;
 }
@@ -84,5 +80,53 @@ header {
   border-width: 0;
   background-color: #fed136;
   color: #fff;
+}
+
+/*services*/
+.services {
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  font-style: italic;
+  font-family: "Lora", serif;
+  color: #777777;
+  margin-top: 0;
+  margin-bottom: 120px;
+}
+
+p {
+  font-family: "Lora", serif;
+  color: #777777;
+}
+
+.col {
+  margin-top: 80px;
+}
+
+.col i {
+  font-size: 45px;
+  background: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #fed136;
+  border-radius: 50%;
+  border: 4px;
+  border-style: solid;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
