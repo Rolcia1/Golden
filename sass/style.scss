@@ -7,9 +7,72 @@ $font-text: 'Lora', serif;
 $font-header: 'Montserrat', sans-serif;
 $font-logo: 'Lily Script One', cursive;
 
-.logo {
-    font-family: $font-logo;
-    font-size: 20px;
-    color: $color-two;
+header {
+    background-image: url("https://i.postimg.cc/Gp1BVxWN/vadim-sherbakov-t-CICLJ5kt-BE-unsplash.jpg");
+    
 }
 
+/*Nav*/
+
+.logo {
+    font-family: $font-logo;
+    font-size: 24px;
+    color: $color-two;
+}
+.navigation {
+    padding-top: 12 px;
+}
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.navigation li {
+    display: inline-block;
+    margin: 36px 36px 0 0;
+    position: relative;    
+}
+.navigation a {
+    text-decoration: none;
+    font-family: $font-header;
+    color: #fff;
+}
+/*header*/
+.splash {
+    color: #fff;
+    min-height: 700px;
+    display: flex;
+    
+}
+.splash-inner {
+    margin: auto;
+    max-width: 70%;
+    font-family: $font-header;
+    text-align: center;
+}
+.page-title{
+    margin: 0;
+    font-size: 86px;
+    line-height: 1.2;
+}
+.page-subtitle {
+    margin: 24px 0;
+    font-family: $font-text;
+    font-size: 48px;
+    font-style: italic;
+}
+.btn {
+    display: inline-block;
+    min-width: 260px;
+    margin: 40px auto 0 auto;
+    padding: 24px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 0;
+    border-style: solidnone;
+    background-color: $color-two;
+    color: #fff;
+}
