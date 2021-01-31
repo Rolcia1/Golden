@@ -9,18 +9,25 @@ $font-logo: 'Lily Script One', cursive;
 
 header {
     background-image: url("https://i.postimg.cc/Gp1BVxWN/vadim-sherbakov-t-CICLJ5kt-BE-unsplash.jpg");
-    
+    background-size: cover;
 }
 
 /*Nav*/
 
 .logo {
     font-family: $font-logo;
-    font-size: 24px;
+    font-size: 28px;
     color: $color-two;
+    margin-top: 50px;
 }
 .navigation {
-    padding-top: 12 px;
+    margin-top: 12px;
+}
+.row {
+    margin-top: 40px;
+}
+.navigation > row {
+    margin-top: 0;
 }
 .navigation ul {
     padding: 0;
@@ -29,11 +36,12 @@ header {
 }
 .navigation li {
     display: inline-block;
-    margin: 36px 36px 0 0;
+    margin: 60px 36px 0 0;
     position: relative;    
 }
 .navigation a {
     text-decoration: none;
+    font-size: 18px;
     font-family: $font-header;
     color: #fff;
 }
@@ -72,7 +80,6 @@ header {
     text-decoration: none;
     cursor: pointer;
     border-width: 0;
-    border-style: solidnone;
     background-color: $color-two;
     color: #fff;
 }
