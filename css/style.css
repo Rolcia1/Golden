@@ -129,4 +129,28 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
+
+/*portfolio*/
+.portfolio {
+  text-align: center;
+  margin-bottom: 150px;
+  background-color: #f7f7f7;
+}
+
+.col {
+  background: #fff;
+  background-size: 350px;
+  background-position: center;
+}
+
+.col img {
+  max-width: 350px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.col p {
+  font-style: italic;
+}
 /*# sourceMappingURL=style.css.map */
