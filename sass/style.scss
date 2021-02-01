@@ -143,4 +143,22 @@ p {
     font-style: italic;
 }
 
+/*footer*/
+.page-footer p {
+    font-family: $font-header;
+    font-style: normal;
+}
+
+.page-footer .col i {
+    font-size: 30px;
+    background: #000;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 50%;
+    border-style: none;
+    text-align: center;
+}
+
 
