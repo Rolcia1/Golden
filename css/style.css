@@ -37,6 +37,7 @@ header {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   color: #fff;
+  text-transform: uppercase;
 }
 
 /*header*/
@@ -58,6 +59,7 @@ header {
   margin: 0;
   font-size: 86px;
   line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .page-subtitle {
@@ -80,6 +82,7 @@ header {
   border-width: 0;
   background-color: #fed136;
   color: #fff;
+  text-transform: uppercase;
 }
 
 /*services*/
@@ -93,6 +96,7 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .section-subtitle {
@@ -107,10 +111,6 @@ header {
 p {
   font-family: "Lora", serif;
   color: #777777;
-}
-
-.col {
-  margin-top: 80px;
 }
 
 .col i {
@@ -133,13 +133,14 @@ p {
 /*portfolio*/
 .portfolio {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 150px;
   background: #f7f7f7;
   background-color: #f7f7f7;
 }
 
 .portfolio-wrapper {
+  margin-top: 80px;
   background: #fff;
 }
 
@@ -160,17 +161,21 @@ p {
 }
 
 /*footer*/
+.page-footer {
+  padding: 40px 0;
+}
+
 .page-footer p {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
 }
 
 .page-footer .col i {
-  font-size: 30px;
+  font-size: 25px;
   background: #000;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   color: #fff;
   border-radius: 50%;
   border-style: none;
